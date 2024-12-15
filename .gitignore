@@ -2,10 +2,11 @@
 .*
 ~*
 
-# ignore intermediate, logs and scratch dirs
+# ignore rawdata, intermediate, logs and scratch dirs
 intermediate
 logs
 scratch
+data
 
 # ignore OS generated files
 .DS_Store
@@ -15,3 +16,5 @@ Thumbs.db
 # Whitelisted files
 # -------------------------
 !.gitignore
+!data/meta
+!data/README.md
